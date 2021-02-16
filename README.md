@@ -52,8 +52,6 @@ Currently you can customize all visible texts and the main widget color by setti
 <script id="intergram" type="text/javascript" src="https://www.intergram.xyz/js/widget.js"></script>
 ```
 
-<p align="center"> <img src="docs/hello.jpg"/> </p>
-
 ### Initial Footprint
   - Using [Preact](https://github.com/developit/preact) helped creating a pretty minimal `js` bundle.
   - The widget injection script is about 5KB gziped and executes only after the host page finished loading ('onload' event).
