@@ -37,6 +37,8 @@ Currently you can customize all visible texts and the main widget color by setti
 <script> 
     window.intergramId = "Your unique chat id";
     window.intergramCustomizations = {
+        window.intergramOnOpen = {}; // comment this if dont need username in the message
+		    window.intergramOnOpen.visitorName= 'username_variable_from_your_app'; // comment this if dont need username in the message {{$user['email']}} - for php app
         titleClosed: 'Closed chat title',
         titleOpen: 'Opened chat title',
         introMessage: 'First message when the user opens the chat for the first time',
